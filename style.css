@@ -33,7 +33,6 @@ a {
   flex-direction: column;
   justify-content: center;
   padding: 0.5rem 0.75rem;
-  margin-right: 0.2rem;
 }
 
 .nav .nav_option {
@@ -55,6 +54,14 @@ a {
     height: 100vh;
     margin: 0.5rem 0;
 }
+
+
+
+
+
+
+
+
 
 
 
