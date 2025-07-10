@@ -31,8 +31,8 @@
                 </div>
             </div>
             <div class="library">
-                <div class="options">
-                    <div class="lib_option">
+                <div class="options ">
+                    <div class="lib_option nav_option">
                         <img src="/assests/library_icon.png">
                         <a href="#">Your Library</a>
                     </div>
@@ -41,11 +41,118 @@
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
-                <div class="lib_boxes"></div>
+                <div class="lib_boxes">
+                    <div class="box">
+                        <p class="box_p1">Create your first playlist</p>
+                        <p class="box_p2">It's easy , we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box_p1">Let's find some podcasts to follow</p>
+                        <p class="box_p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="main_content">Main Content</div>
-        <div class="music_player">Music Player</div>
+        <div class="main_content">
+            <div class="sticky_navbar">
+                <div class="sticky_nav_icons">
+                    <img src="/assests/backward_icon.png" alt="">
+                    <img class="hide" src="/assests/forward_icon.png" alt="">
+                </div>
+                <div class="sticky_nav_options">
+                    <button class="badge nav_item hide">Explore Premium</button>
+                    <button class="badge nav_item dark_badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav_item"></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="cards_container">
+                <div class="card">
+                    <img src="/assests/card1img.jpeg" class="card_img">
+                    <p class="card_title">Top 50 Global</p>
+                    <p class="card_info">Your daily updates of the most played tracks......</p>
+                </div>
+            </div>
+             <h2>Trending now near you.</h2>
+            <div class="cards_container">
+                <div class="card">
+                    <img src="/assests/card7img.jpeg" class="card_img">
+                    <p class="card_title">Gal Karke</p>
+                    <p class="card_info">Indar Chahal , Rajat Nagpal</p>
+                </div>
+                <div class="card">
+                    <img src="/assests/card2img.jpeg" class="card_img">
+                    <p class="card_title">Mahiya Jinna Sona</p>
+                    <p class="card_info">Song . Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img src="/assests/card3img.jpeg" class="card_img">
+                    <p class="card_title">Mere Paas tum ho</p>
+                    <p class="card_info">Silent ocean . 1 min music</p>
+                </div>
+                <div class="card">
+                    <img src="/assests/card4img.jpeg" class="card_img">
+                    <p class="card_title">Naa Ready(From "Leo")</p>
+                    <p class="card_info">Anirudh Ravichander , Vijay , Asal Kolaar</p>
+                </div>
+            </div>
+              <h2>Featured Charts</h2>
+            <div class="cards_container">
+                <div class="card">
+                    <img src="/assests/card5img.jpeg" class="card_img">
+                    <p class="card_title">Top Songs Global</p>
+                    <p class="card_info">Your daily updates of the most played tracks......</p>
+                </div>
+                <div class="card">
+                    <img src="/assests/card6img.jpeg" class="card_img">
+                    <p class="card_title">Top Songs India</p>
+                    <p class="card_info">Your daily updates of the most played tracks......</p>
+                </div>
+                <div class="card">
+                    <img src="/assests/card1img.jpeg" class="card_img">
+                    <p class="card_title">Top 50 Global</p>
+                    <p class="card_info">Your daily updates of the most played tracks......</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music_player">
+            <div class="album">
+                    <img src="/assests/album_picture.jpeg" class="album_img">
+                <div class="album_info">
+                    <p class="album_title">Naa Ready(From "Leo")</p>
+                    <p class="album_artist">Anirudh Ravichander</p>
+                </div>
+                    <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="Player">
+                <div class="player_control">
+                    <img src="/assests/player_icon1.png" class="player_control_icon">
+                    <img src="/assests/player_icon2.png" class="player_control_icon">
+                    <img src="/assests/player_icon3.png" class="player_control_icon play_btn">
+                    <img src="/assests/player_icon4.png" class="player_control_icon">
+                    <img src="/assests/player_icon5.png" class="player_control_icon">
+                </div>
+                <div class="playback_bar">
+                    <span class="curr_time">00:00</span>
+                    <input type="range" min="0" max="100" step="10" class="progress_bar">
+                    <span class="tot_time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-layer-group"></i>
+                <div class="playback_bar">
+                    <i class="fa-solid fa-volume-low"></i>
+               <input type="range" min="0" max="100" step="10" class="volume_bar">
+                </div>
+                <i class="fa-solid fa-expand"></i>
+            </div>
+        </div>
     </div>
 </body>
 
