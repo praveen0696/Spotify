@@ -1,41 +1,44 @@
-#🎵 Spotify Clone (HTML & CSS)
+<h1>#🎵 Spotify Clone (HTML & CSS)</h1>
+<br>
 A fully responsive Spotify web app clone UI, built entirely with HTML5 and CSS3 🎨 — no JavaScript, no backend.
+<br>
 It replicates the modern look and feel of Spotify’s web player.
+<br>
 
 
+<h2>🚀 Features</h2><br>
+✅ Pixel-perfect clone of Spotify web player<br>
+✅ Clean, modern, responsive design<br>
+✅ Sidebar navigation and playlists<br>
+✅ Album grid and hover effects<br>
+✅ Playbar styled at the bottom<br>
 
-🚀 Features
-✅ Pixel-perfect clone of Spotify web player
-✅ Clean, modern, responsive design
-✅ Sidebar navigation and playlists
-✅ Album grid and hover effects
-✅ Playbar styled at the bottom
+<h2>🛠️ Tech Stack</h2> <br>
+🌐 HTML5<br>
+🎨 CSS3 (Flexbox & Grid for layout)<br>
+📱 Responsive design<br>
 
-🛠️ Tech Stack
-🌐 HTML5
-🎨 C
-SS3 (Flexbox & Grid for layout)
-📱 Responsive design
-
-📂 Project Structure
+<h2>📂 Project Structure</h2><br>
 📁 /assets (optional: images/icons)
-📄 index.html
-📄 styles.css
+<br>📄 index.html
+<br>📄 styles.css
 
+<br>
+<h2>📜 How to Run Locally</h2>
+<br>1️⃣ Clone the repository
+<br>git clone https://github.com/your-username/spotify-clone.git<br>
+2️⃣ Navigate into the folder:<br>
+cd spotify-clone<br>
+3️⃣ Open index.html in your browser:<br>
+file:///path-to-your-folder/index.html<br>
 
-📜 How to Run Locally
-1️⃣ Clone the repository
-git clone https://github.com/your-username/spotify-clone.git
-2️⃣ Navigate into the folder:
-cd spotify-clone
-3️⃣ Open index.html in your browser:
-file:///path-to-your-folder/index.html
-
-🌟 Future Improvements
-Add interactivity with JavaScript
-Integrate Spotify Web API
+<h2>🌟 Future Improvements</h2> <br>
+Add interactivity with JavaScript<br>
+Integrate Spotify Web API<br>
 Implement audio player controls
-Add authentication
+<br>Add authentication
+<br>
 
-🧑‍💻 Author
-👋 Made with ❤️ by Praveen Sharma
+<h2>🧑‍💻 Author</h2>
+<br>
+<h4>👋 Made with ❤️ by Praveen Sharma</h4>
